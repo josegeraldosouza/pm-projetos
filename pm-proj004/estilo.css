@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.lista {
+    Display: table;
+}
+
+.marcar {
+    display: table-cell;
+    float: left;
+    margin-top: 55px;
+    margin-left: 20px;
+    
+}
+
+ .projeto {
+    display: table-cell;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 63px;
+    margin-left: 60px;   
+}
+
+.seta {
+    display: table-cell;
+    float: right;
+    margin-top: 56px;
+    margin-right: 40px;   
+}
+
+li{
+    background-color: #4a4a4a;
+    list-style-type: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 2px;
+    padding: 20px;
+    width: 100%;
+    height: 150px;    
+}
+
+/*pseudoclass - muda a cor do objeto ao passar o mouse*/
+ul li:hover{
+    background-color: #6e6e6e; 
+    color: #92e80d;   
+}
+
+ul li:active{
+    background-color: #27ae60;
+}
+
+
