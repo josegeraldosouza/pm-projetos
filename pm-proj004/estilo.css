@@ -1,60 +1,41 @@
-*{
-    margin: 0;
+ul {
     padding: 0;
 }
 
-body {
-    background-color: #fff;
-}
-
-.lista {
-    Display: table;
-}
-
-.marcar {
-    display: table-cell;
-    float: left;
-    margin-top: 55px;
-    margin-left: 20px;
-    
-}
-
- .projeto {
-    display: table-cell;
-    float: left;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    margin-top: 63px;
-    margin-left: 60px;   
-}
-
-.seta {
-    display: table-cell;
-    float: right;
-    margin-top: 56px;
-    margin-right: 40px;   
-}
-
-li{
-    background-color: #4a4a4a;
+li {
     list-style-type: none;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 2px;
-    padding: 20px;
-    width: 100%;
-    height: 150px;    
+    background-color: #4a4a4a;
+    margin-bottom: 3px;
+    padding: 60px 40px 60px 100px;
+    background-image: url('pendente.png');
+    background-repeat: no-repeat;
+    background-position: 40px center;
 }
 
-/*pseudoclass - muda a cor do objeto ao passar o mouse*/
-ul li:hover{
-    background-color: #6e6e6e; 
-    color: #92e80d;   
+li:hover {
+    background-color: #6e6e6e;
 }
 
-ul li:active{
+li.feito {
     background-color: #27ae60;
+    background-image: url('feito.png');
 }
 
+li.feito:hover {
+    background-color: #52be7f;
+}
 
+a {
+    color: #fff;
+    text-decoration: none;
+    display:block;
+    background: url('seta.png'); 
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;   
+}
