@@ -1,69 +1,72 @@
 body {
-   background-color: #9b9b9b; 
-}
-
-.corpo {
-    background-color: #fff;
-    padding: 10px 15px 30px 15px;
-    border-radius: 3px 3px 3px 3px;
-}
-
-h2 {
-    margin-top: 5px;
+    background-color: #9b9b9b;
+    padding: 45px;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
     -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 table {
+    background-color: #fff;
     width: 100%;
-    
+    border-spacing: 0;
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 0px 2px 5px #666;
 }
 
-table,th,td {
-    margin-top: 30px;
-    padding: 15px; 
-    border: none;
-    border-collapse: collapse;
-    border-bottom: 2px solid #eeeeee;
-    text-align:  center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;  
-}
-
-table th {
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+table caption {
+    background-color: #fff;
+    text-align:  left;
+    padding: 20px;
     font-weight: 500;
-    -webkit-font-smoothing: antialiased;
-}
-
-table tr:hover {
-    background-color: #eeeeee; 
-}
-
- .corpo .rodape  {
-    margin-left: 0px;
-    padding: 10px 10px 10px 10px;
-    display: flex;
-    letter-spacing: 1px;
-    align-items:  center;
-    justify-content:flex-end;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-}
-
-h3 {
-    margin-right: 15px;
-    margin-left: 15px;
+    font-size: 20px;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0px -2px 3px #666;
     
+    } 
+
+table thead th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
 }
 
+table td, table th  {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+tbody td:first-child, thead th:first-child {
+    width: 80px;
+    text-align: center;
+}
 
+tbody tr:hover {
+    background-color: #eeeeee;
+}
 
+tfoot {
+    text-align: right;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+tfoot td {
+    padding-right: 20px;
+}
+
+tfoot td span {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+tfoot td img {
+    margin-left: 30px;
+}
+
+select {
+    border: none;
+    border-right-color: transparent;
+}

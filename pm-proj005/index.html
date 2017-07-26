@@ -7,31 +7,24 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet"> 
     <link rel="stylesheet" href="estilo.css"> 
 </head>
-
 <body>
-   <div class="corpo">
-    <h2>Relatório de Faturamento</h2>
     <table>
+    <caption>Relatório de Faturamento</caption>
+    <thead>
       <tr>
-       <th>
-         <form>
-             <input type="checkbox">
-         </form>
-       </th>
-       <th>Coluna1</th>
-       <th>Coluna2</th>
-       <th>Coluna3</th>
-       <th>Coluna4</th>
-       <th>Coluna5</th>
-       <th>Coluna6</th>
-       <th>Coluna7</th>
+       <th><input type="checkbox"></th>
+       <th>Coluna 1</th>
+       <th>Coluna 2</th>
+       <th>Coluna 3</th>
+       <th>Coluna 4</th>
+       <th>Coluna 5</th>
+       <th>Coluna 6</th>
+       <th>Coluna 7</th>
       </tr>
+    </thead> 
+    <tbody>
       <tr>
-        <td>
-          <form>
-             <input type="checkbox">
-         </form>
-        </td>
+        <td><input type="checkbox"></td>
         <td>Texto A</td>
         <td>Texto B</td>
         <td>Texto C</td>
@@ -41,11 +34,7 @@
         <td>Texto G</td>
       </tr> 
       <tr>
-        <td>       
-          <form>
-             <input type="checkbox">
-         </form>
-        </td>
+        <td><input type="checkbox"></td>
         <td>Texto A</td>
         <td>Texto B</td>
         <td>Texto C</td>
@@ -53,13 +42,9 @@
         <td>Texto E</td>
         <td>Texto F</td>
         <td>Texto G</td>
-       </tr> 
+      </tr> 
        <tr>
-        <td>
-          <form>
-             <input type="checkbox">
-         </form>
-        </td>
+        <td><input type="checkbox"></td>
         <td>Texto A</td>
         <td>Texto B</td>
         <td>Texto C</td>
@@ -67,13 +52,9 @@
         <td>Texto E</td>
         <td>Texto F</td>
         <td>Texto G</td>
-      </tr>
+      </tr> 
       <tr>
-        <td>
-          <form>
-             <input type="checkbox">
-         </form>
-        </td>
+        <td><input type="checkbox"></td>
         <td>Texto A</td>
         <td>Texto B</td>
         <td>Texto C</td>
@@ -81,13 +62,9 @@
         <td>Texto E</td>
         <td>Texto F</td>
         <td>Texto G</td>
-       </tr> 
+      </tr> 
        <tr>
-        <td>
-          <form>
-             <input type="checkbox">
-         </form>
-        </td>
+        <td><input type="checkbox"></td>
         <td>Texto A</td>
         <td>Texto B</td>
         <td>Texto C</td>
@@ -95,13 +72,9 @@
         <td>Texto E</td>
         <td>Texto F</td>
         <td>Texto G</td>
-      </tr>
+      </tr> 
       <tr>
-        <td>
-          <form>
-             <input type="checkbox">
-         </form>
-        </td>
+        <td><input type="checkbox"></td>
         <td>Texto A</td>
         <td>Texto B</td>
         <td>Texto C</td>
@@ -109,13 +82,9 @@
         <td>Texto E</td>
         <td>Texto F</td>
         <td>Texto G</td>
-       </tr> 
+      </tr> 
        <tr>
-        <td>
-          <form>
-             <input type="checkbox">
-         </form>
-        </td>
+        <td><input type="checkbox"></td>
         <td>Texto A</td>
         <td>Texto B</td>
         <td>Texto C</td>
@@ -123,13 +92,9 @@
         <td>Texto E</td>
         <td>Texto F</td>
         <td>Texto G</td>
-      </tr>
+      </tr> 
       <tr>
-        <td>
-          <form>
-             <input type="checkbox">
-         </form>
-        </td>
+        <td><input type="checkbox"></td>
         <td>Texto A</td>
         <td>Texto B</td>
         <td>Texto C</td>
@@ -137,13 +102,9 @@
         <td>Texto E</td>
         <td>Texto F</td>
         <td>Texto G</td>
-       </tr> 
+      </tr> 
        <tr>
-        <td>
-          <form>
-             <input type="checkbox">
-         </form>
-        </td>
+        <td><input type="checkbox"></td>
         <td>Texto A</td>
         <td>Texto B</td>
         <td>Texto C</td>
@@ -151,13 +112,9 @@
         <td>Texto E</td>
         <td>Texto F</td>
         <td>Texto G</td>
-      </tr>
+      </tr> 
       <tr>
-        <td>
-          <form>
-             <input type="checkbox">
-         </form>
-        </td>
+        <td><input type="checkbox"></td>
         <td>Texto A</td>
         <td>Texto B</td>
         <td>Texto C</td>
@@ -165,20 +122,24 @@
         <td>Texto E</td>
         <td>Texto F</td>
         <td>Texto G</td>
-       </tr> 
-    </table>
-      <div class="rodape">
-       <h3 class="texto">Registros por pagina:</h3>
-        <select class="caixa_selecao">
-            <option value="10">10</option>
-            <option value="20">20</option>
-            <option value="30">30</option>
+      </tr> 
+    </tbody> 
+    
+    <tfoot>
+      <tr>
+        <td colspan="8">
+        Registros por páginas:
+        <select>
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
         </select>
-        <h3 clas="numeros">1-10 de 100</h3>
+        <span>1-10 de 100</span>
         <a href=""><img src="seta_esquerda_16.png"></a>
         <a href=""><img src="seta_direita_16.png"></a> 
-      </div>
-  </div>      
+        </td>     
+      </tr>
+    </tfoot>
+</table>  
 </body>
-
 </html>
