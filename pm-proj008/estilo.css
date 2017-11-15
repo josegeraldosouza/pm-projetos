@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+aside {
+    width: 200px;
+    background-color: #242536;
+}
+
+aside h1 {
+    background-image:url(imagens/nucliot-logo.png);
+    background-repeat:no-repeat;
+    margin: 0;
+    height: 60px;
+    background-position: center center;
+    background-color: #151524;   
+}
+aside ul {
+    margin: 0; 
+    padding: 0;
+}
+aside li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    font-size: 14 px;
+    font-weight: bold;
+}
+
+aside li:hover {
+    background-color: #151524;
+    border-left: 3px solid #ffb946;
+    cursor: pointer;
+    padding-left: 12px;
+}
+aside li i {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+aside li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+aside li small {
+    color: rgba(255, 255, 255, 0.6);
+    float: right;
+    margin-right: 15px;
+}
+
+aside h1 span {
+    visibility: hidden;
+}
+
+section#principal {
+    width: 100%;  
+}
+
+section#principal header {
+    height: 60px;
+    background-color: #242536;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+section#principal .modulo .abas{
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+section#principal .modulo .abas ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+
+section#principal .modulo .abas li {
+    display: inline-block;
+    line-height: 60px;
+}
+
+section#principal .modulo .abas li a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #0f0f0f;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block; 
+}
+
+section#principal .modulo .abas li a:hover {
+    color: #ffb946;
+    box-shadow: 0px -3px 0px #ffb946 inset;
+}
+
+section#principal .modulo .container{
+    height: 300px;
+    padding: 20px;
+}
+
+section#principal .modulo .container .canvas {
+    background-color: #fff; 
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+form ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+form li {
+    list-style: none; 
+    margin-bottom: 10px;
+}
+
+form h2 {
+    font-size: 20px;
+    color: #161616;
+    padding: 0; margin: 0;
+    margin-bottom: 20px;
+    
+}
+
+form input, form select {
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: solid 1px #dddddd;
+    border-radius: 4px;
+}
+
+form small {
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+
+form select {
+    color:#c5c5c5;
+}
+
+::-webkit-input-placeholder {
+    color: #c5c5c5;
+}
+
+form li.ok {
+    background-image: url(imagens/ok.png);
+    background-repeat: no-repeat;
+    background-position: top 10px right;
+    width:430px;  
+}
+
+form button {
+    width: 400px;
+    height: 40px;
+    background-color: #38cb60;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+.confirmacoes li{
+    font-size: 14px;
+    display: flex;
+    width: 400px;
+    margin-right:  5px;
+}
+
+.confirmacoes input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; 
+}
